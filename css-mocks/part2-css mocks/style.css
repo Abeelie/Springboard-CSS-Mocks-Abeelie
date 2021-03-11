@@ -1,0 +1,102 @@
+.button-style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+button {
+  background-color: blue;
+  font-size: 50px;
+  color: white;
+  transition: 0.3s;
+}
+
+button:hover{
+  background-color: green;
+}
+
+.card-image {
+  margin-top: 20px;
+  width: 30%;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px 0;
+  padding-bottom: 5px;
+  position: absolute;
+  background-color: lightgray;
+}
+
+.card-image p {
+  padding-left: 10px;
+}
+
+.card-image h1 {
+  padding-left: 10px;
+}
+
+img {
+  width: 400px;
+  height: 200px;
+}
+
+.card-image-position {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.giffs {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 240px;
+  margin-bottom: 100px;
+}
+
+.giff {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  border-radius: 8px;
+  background-color: pink;
+  overflow: hidden;
+}
+
+.img-wrapper {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  border-radius: 8px;
+  background-size: cover;
+}
+
+.img-1 {
+  background-image: url("https://media.giphy.com/media/1L5YuA6wpKkNO/giphy.gif");
+}
+
+.img-2 {
+  background-image: url("https://media.giphy.com/media/xUA7b2S7SxhM1cGdsQ/giphy.gif");
+}
+
+.img-3 {
+  background-image: url("https://media.giphy.com/media/l3zoKeX8bMG5sMP4s/giphy.gif");
+}
+
+.words {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 300px;
+  transition: top 0.5s;
+  background-color: #383535;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  text-align: center;
+}
+
+.giff:hover .words {
+  top: 0;
+}
